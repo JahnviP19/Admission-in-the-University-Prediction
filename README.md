@@ -1,5 +1,5 @@
 Model Equation:
-The model you've fitted is represented by the formula: Chance of Admit = -1.5810856 + 0.0024593 * GRE + 0.0033339 * TOEFL + 0.1335526 * CGPA + 0.0221002 * Research
+Chance of Admit = -1.5810856 + 0.0024593 * GRE + 0.0033339 * TOEFL + 0.1335526 * CGPA + 0.0221002 * Research
 
 Coefficients:
 
