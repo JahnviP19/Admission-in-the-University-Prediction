@@ -19,14 +19,16 @@ In summary, the model suggests that GRE, CGPA, and having research experience ar
 
 Random Forest regression model:
 
-•	Mean Squared Error (MSE): 0.0037365241404424
-•	Mean Absolute Error (MAE): 0.0481440679825876
-•	R-squared: 0.783351540031707
-•	Root Mean Squared Error (RMSE): 0.0611271146091683
+MSE: 0.0035
+Lower MSE values are desirable, and in this case, a MSE of 0.0035 suggests that, on average, the squared difference between the predicted and actual Chance of Admit values is relatively small. This indicates good predictive accuracy.
 
-Now, let's interpret these metrics:
+MAE: 0.0455
+The MAE measures the average absolute difference between predicted and actual values. An MAE of 0.0455 means, on average, the model's predictions deviate by approximately 0.0455 from the actual values. This value is relatively small, indicating good accuracy.
 
-•	MSE: The MSE measures the average squared difference between the predicted and actual values. A lower MSE is better, and in this case, the value is relatively low, indicating that the model's predictions are generally close to the actual values.
-•	MAE: The MAE measures the average absolute difference between the predicted and actual values. A lower MAE is desirable, and the value here is relatively small, suggesting that, on average, the model's predictions are close to the actual values.
-•	R-squared: R-squared is a measure of how well the model explains the variability in the dependent variable. A higher R-squared (closer to 1) indicates a better fit. In your case, an R-squared of 0.78 suggests that the model explains about 78% of the variance in the Chance of Admit.
-•	RMSE: The RMSE is the square root of the MSE and provides a measure of the average magnitude of errors. A lower RMSE is better, and here the value is relatively small, indicating that the model's predictions are, on average, close to the actual values.
+R-squared: 0.7971
+R-squared is a measure of how well the model explains the variance in the target variable. An R-squared of 0.7971 indicates that about 79.71% of the variance in the Chance of Admit is explained by the model. This is a good R-squared value, suggesting that the model captures a substantial portion of the variability in the target variable.
+
+RMSE: 0.0592
+RMSE is the square root of the MSE and provides a measure of the average magnitude of errors. An RMSE of 0.0592 suggests that, on average, the model's predictions deviate by approximately 0.0592 from the actual values. This value is relatively small, indicating good accuracy.
+
+In summary, based on the provided metrics, your Random Forest regression model seems to be performing well on the test dataset. The small values of MSE, MAE, and RMSE, along with the relatively high R-squared, suggest that the model provides accurate predictions for the Chance of Admit.
